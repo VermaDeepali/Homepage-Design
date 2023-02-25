@@ -1,0 +1,82 @@
+/* Style for the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Style for the search bar */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-box {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    background-color: #eee;
+    margin-right: 10px;
+}
+
+.search-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #3e8e41;
+}
+
+/* Style for the navigation tabs */
+.nav-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.nav-tab {
+    margin-right: 10px;
+}
+
+.nav-tab:last-child {
+    margin-right: 0;
+}
+
+body {
+    background-color: #d8f9ff;
+}
+
+footer {
+
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
