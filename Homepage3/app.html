@@ -1,1 +1,92 @@
-# 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Homepage</title>
+    <style>
+      /* Style for the navbar */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+      }
+      
+      /* Style for the logo */
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      
+      /* Style for the navigation links */
+      .nav-links {
+        display: flex;
+        align-items: center;
+      }
+      
+      /* Style for the individual navigation links */
+      .nav-link {
+        margin-left: 1rem;
+        color: white;
+        text-decoration: none;
+      }
+      
+      /* Style for the active navigation link */
+      .nav-link.active {
+        font-weight: bold;
+      }
+      
+      /* Style for the homepage container */
+      .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      /* Style for the search form */
+      .search-form {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+      
+      /* Style for the search input */
+      .search-input {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+      }
+      
+      /* Style for the search button */
+      .search-button {
+        padding: 0.5rem;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 0.25rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">My Website</div>
+      <div class="nav-links">
+        <a href="#" class="nav-link active">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    <div class="home">
+      <h1>Welcome to My Website</h1>
+      <form class="search-form">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button class="search-button">Search</button>
+      </form>
+    </div>
+  </body>
+</html>
